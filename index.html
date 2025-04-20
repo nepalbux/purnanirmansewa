@@ -65,7 +65,7 @@ transition: all 0.3s ease;
 }
 .card-hover:hover {
 transform: translateY(-10px);
-box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+box-shadow: 0 20px 15px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.02);
 }
 .project-card {
 overflow: hidden;
@@ -82,7 +82,7 @@ transition: all 0.3s ease;
 }
 .custom-input:focus {
 border-color: #180CF6;
-box-shadow: 0 0 0 3px rgba(24, 12, 246, 0.1);
+box-shadow: 0 0 0 1px rgba(24, 12, 246, 0.1);
 }
 .custom-checkbox {
 appearance: none;
@@ -113,7 +113,7 @@ transform: rotate(45deg);
 </head>
 <body class="bg-white">
 <!-- Navigation -->
-<header class="fixed w-full bg-white bg-opacity-90 backdrop-blur-sm shadow-sm z-50">
+<header class="fixed w-full bg-white bg-opacity-20 backdrop-blur-sm shadow-sm z-30">
 <div class="container mx-auto px-4 py-3">
 <div class="flex justify-between items-center">
 <div class="flex items-center">
@@ -138,7 +138,7 @@ transform: rotate(45deg);
 <section id="home" class="hero-section pt-24 min-h-screen flex items-center relative overflow-hidden">
 <div class="absolute inset-0 w-full h-full">
 <img src="https://readdy.ai/api/search-image?query=A%20stunning%20architectural%20visualization%20showing%20multiple%20phases%20of%20building%20construction%20in%20a%20single%20image%2C%20from%20foundation%20to%20completion.%20The%20image%20shows%20a%20modern%20high-rise%20building%20split%20into%20different%20stages%20of%20construction%20-%20foundation%20work%2C%20structural%20framework%2C%20exterior%20cladding%2C%20and%20the%20finished%20building.%20High-quality%203D%20rendering%20with%20photorealistic%20details%2C%20dramatic%20lighting%2C%20and%20professional%20composition.%20The%20scene%20includes%20construction%20equipment%2C%20workers%2C%20and%20scaffolding.%20The%20background%20shows%20a%20beautiful%20cityscape%20with%20mountains%2C%20creating%20a%20sense%20of%20scale%20and%20context.%20The%20visualization%20style%20is%20clean%20and%20professional%20with%20attention%20to%20architectural%20details.&width=1920&height=1080&seq=21&orientation=landscape" alt="Construction Phases" class="w-full h-full object-cover object-center">
-<div class="absolute inset-0 bg-gradient-to-r from-white via-white/90 to-transparent"></div>
+<div class="absolute inset-0 bg-gradient-to-r from-white via-white/30 to-transparent"></div>
 </div>
 <div class="container mx-auto px-4 w-full relative">
 <div class="flex flex-col md:flex-row items-center">
@@ -212,7 +212,6 @@ transform: rotate(45deg);
 <div class="w-full md:w-1/2 relative">
 <img src="https://readdy.ai/api/search-image?query=A%20majestic%20and%20modern%20high-rise%20building%20in%20Pokhara%2C%20Nepal%20with%20impressive%20architecture%20featuring%20glass%20and%20steel%20elements.%20The%20building%20stands%20tall%20against%20the%20backdrop%20of%20the%20Annapurna%20mountain%20range%2C%20showcasing%20contemporary%20design%20with%20traditional%20Nepali%20architectural%20influences.%20The%20structure%20has%20multiple%20floors%20with%20elegant%20balconies%2C%20floor-to-ceiling%20windows%2C%20and%20a%20grand%20entrance.%20Surrounded%20by%20beautifully%20landscaped%20gardens%20and%20water%20features.%20The%20image%20is%20captured%20during%20golden%20hour%2C%20highlighting%20the%20buildings%20impressive%20facade%20and%20architectural%20details.%20Professional%20architectural%20photography%20showing%20the%20scale%20and%20grandeur%20of%20the%20completed%20construction%20project.&width=600&height=500&seq=5&orientation=landscape" alt="Modern Building" class="w-full h-auto rounded-lg shadow-xl object-cover object-top">
 <div class="absolute -bottom-6 -right-6 bg-white p-4 rounded-lg shadow-lg">
-<p class="text-lg font-semibold text-primary">Since 2010</p>
 </div>
 </div>
 <div class="w-full md:w-1/2">
@@ -801,24 +800,24 @@ Call Us Now
 </div>
 </section>
 <!-- Footer -->
-<footer class="bg-gray-900 text-white pt-16 pb-8" style="background-image: url('https://static.readdy.ai/image/1b33a14f200aee456f9b15fa6f6499c9/7b5db4bd37c04f5c1ad47d5977d7cdf5.jpeg'); background-size: cover; background-position: center; background-blend-mode: overlay; position: relative;">
-<div class="absolute inset-0 bg-gray-900 opacity-90"></div>
+<footer class="bg-gray-400 text-white pt-16 pb-8" style="background-image: url('https://static.readdy.ai/image/1b33a14f200aee456f9b15fa6f6499c9/7b5db4bd37c04f5c1ad47d5977d7cdf5.jpeg'); background-size: cover; background-position: center; background-blend-mode: overlay; position: relative;">
+<div class="absolute inset-0 bg-gray-900 opacity-20"></div>
 <div class="container mx-auto px-4 relative">
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
 <div>
 <h3 class="text-2xl font-['arial'] text-white mb-6">Purna Nirma Sewa</h3>
-<p class="text-gray-400 mb-6">Premium construction services in Pokhara, Nepal. Building dreams and crafting futures since 2010.</p>
+<p class="text-gray-200 mb-6">Premium construction services in Pokhara, Nepal. Building dreams and crafting futures since 2010.</p>
 <div class="flex space-x-4">
-<a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-full hover:bg-primary transition">
+<a href="#" class="w-10 h-10 flex items-center justify-center bg-blue-500 rounded-full hover:bg-primary transition">
 <i class="ri-facebook-fill text-white"></i>
 </a>
-<a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-full hover:bg-primary transition">
+<a href="#" class="w-10 h-10 flex items-center justify-center bg-pink-500 rounded-full hover:bg-primary transition">
 <i class="ri-instagram-fill text-white"></i>
 </a>
-<a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-full hover:bg-primary transition">
+<a href="#" class="w-10 h-10 flex items-center justify-center bg-red-500 rounded-full hover:bg-primary transition">
 <i class="ri-youtube-fill text-white"></i>
 </a>
-<a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-full hover:bg-primary transition">
+<a href="#" class="w-10 h-10 flex items-center justify-center bg-green-500 rounded-full hover:bg-primary transition">
 <i class="ri-whatsapp-fill text-white"></i>
 </a>
 </div>
@@ -826,39 +825,39 @@ Call Us Now
 <div>
 <h4 class="text-lg font-semibold mb-6">Quick Links</h4>
 <ul class="space-y-3">
-<li><a href="#home" class="text-gray-400 hover:text-white transition">Home</a></li>
-<li><a href="#about" class="text-gray-400 hover:text-white transition">About Us</a></li>
-<li><a href="#services" class="text-gray-400 hover:text-white transition">Services</a></li>
-<li><a href="#projects" class="text-gray-400 hover:text-white transition">Projects</a></li>
-<li><a href="#contact" class="text-gray-400 hover:text-white transition">Contact</a></li>
+<li><a href="#home" class="text-gray-200 hover:text-white transition">Home</a></li>
+<li><a href="#about" class="text-gray-200 hover:text-white transition">About Us</a></li>
+<li><a href="#services" class="text-gray-200 hover:text-white transition">Services</a></li>
+<li><a href="#projects" class="text-gray-200 hover:text-white transition">Projects</a></li>
+<li><a href="#contact" class="text-gray-200 hover:text-white transition">Contact</a></li>
 </ul>
 </div>
 <div>
 <h4 class="text-lg font-semibold mb-6">Our Services</h4>
 <ul class="space-y-3">
-<li><a href="#" class="text-gray-400 hover:text-white transition">Residential Construction</a></li>
-<li><a href="#" class="text-gray-400 hover:text-white transition">Commercial Projects</a></li>
-<li><a href="#" class="text-gray-400 hover:text-white transition">Renovation Services</a></li>
-<li><a href="#" class="text-gray-400 hover:text-white transition">Architectural Design</a></li>
-<li><a href="#" class="text-gray-400 hover:text-white transition">Landscaping</a></li>
+<li><a href="#" class="text-gray-300 hover:text-white transition">Residential Construction</a></li>
+<li><a href="#" class="text-gray-300 hover:text-white transition">Commercial Projects</a></li>
+<li><a href="#" class="text-gray-300 hover:text-white transition">Renovation Services</a></li>
+<li><a href="#" class="text-gray-300 hover:text-white transition">Architectural Design</a></li>
+<li><a href="#" class="text-gray-300 hover:text-white transition">Landscaping</a></li>
 </ul>
 </div>
 <div>
 <h4 class="text-lg font-semibold mb-6">Newsletter</h4>
-<p class="text-gray-400 mb-4">Subscribe to our newsletter for the latest updates and offers.</p>
+<p class="text-gray-300 mb-4">Subscribe to our newsletter for the latest updates and offers.</p>
 <form class="mb-4">
 <div class="flex">
 <input type="email" placeholder="Your email address" class="px-4 py-2 rounded-l-md w-full border-none focus:outline-none text-gray-800 text-sm">
 <button type="submit" class="bg-primary px-4 py-2 rounded-r-md whitespace-nowrap">Subscribe</button>
 </div>
 </form>
-<p class="text-gray-400 text-sm">We respect your privacy. Unsubscribe at any time.</p>
+<p class="text-gray-300 text-sm">We respect your privacy. Unsubscribe at any time.</p>
 </div>
 </div>
 <div class="pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
 <p class="text-gray-400 text-sm mb-4 md:mb-0">© 2025 Purna Nirma Sewa. All rights reserved.
 	<p style="text-align: center; font-size: 14px;">
-  Developed by:  <a href="https://ramrajabastakoti.com.np" target="_blank" style="text-decoration: none; color: #007BFF;">Ramraja</a>
+  Developed by:  <a href="https://ramrajabastakoti.com.np" target="_blank" style="text-decoration: none; color: orange;">Ramraja</a>
 </p>
 <div class="flex items-center space-x-4">
 <a href="#" class="text-gray-400 hover:text-white text-sm transition">Privacy Policy</a>
